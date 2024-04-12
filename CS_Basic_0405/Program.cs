@@ -21,6 +21,11 @@ namespace CS_Basic_0405
             int a = 2000000000;
             int b = 1000000000;
             Console.WriteLine(a + b);
+
+            //overflow prac2
+            Console.WriteLine((long)a + b);
+            Console.WriteLine(a + (long)b);
+            Console.WriteLine((long)a + (long)b);
         }
     }
 }
