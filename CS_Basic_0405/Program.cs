@@ -16,6 +16,11 @@ namespace CS_Basic_0405
         {
             // C#에서도 헬로월드를?
             Console.WriteLine("Hello World?!");
+
+            // overflow prac
+            int a = 2000000000;
+            int b = 1000000000;
+            Console.WriteLine(a + b);
         }
     }
 }
